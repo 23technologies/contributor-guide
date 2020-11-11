@@ -1,5 +1,15 @@
 # 23 Technologies Contributor Guide
 
+## The Four Opens
+
+We stand behind [the four opens](https://governance.openstack.org/tc/reference/opens.html)
+of the [Open Infrastructure Foundation](https://osf.dev).
+
+* Open Source
+* Open Design
+* Open Development
+* Open Community
+
 ## Developer Certificate of Origin
 
 The [Developer Certificate of Origin](https://developercertificate.org) (DCO)
