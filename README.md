@@ -101,3 +101,17 @@ to automatically label new pull requests.
 
 Then if a pull request is opened with the branch name ``bugfix/218-testing`` the action
 will automatically apply the ``Type: Bugfix`` label.
+
+## Use of the terms "master" and "slave"
+
+Master and slave are politically incorrect terms. We do not use the terms ``master`` and
+``slave`` anywhere. Instead of ``master`` terms like ``main`` or ``primary`` are
+used. Instead of ``slave`` terms like ``secondary``, ``minion`` or ``worker`` are used.
+
+On GitHub, ``master`` is still used as the primary branch until the end of the year.
+
+By the end of 2020, GitHub will have a feature that allows you to rename the ``master``
+branch to ``main``. See https://github.com/github/renaming for more details.
+
+If at any point (except for the name of the primary branch until the end of 2020) the term
+``master`` or ``slave`` is found in one of our repositories or documents, please let us know.
