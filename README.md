@@ -72,6 +72,10 @@ Signed-off-by: Random Developer <random@23technologies.xyz>
 The text can either be manually added to your commit body, or you can add
 either ``-s`` or a ``--signoff`` to your usual Git commit commands.
 
+## Licenses
+
+We use the ASL 2.0 and the CC-BY-SA 4.0.
+
 ## Commit messages
 
 For the commit messages we follow the [best practices from the OpenStack project](https://wiki.openstack.org/wiki/GitCommitMessages).
