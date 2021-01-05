@@ -92,7 +92,10 @@ Please read the [best practices](https://wiki.openstack.org/wiki/GitCommitMessag
 We use the GitHub flow to track and discuss changes in issues, then propose and
 review changes in pull requests. See the
 [GitHub documentation](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests)
-for more details.
+for more details. The main-branch is considered to be a stable and working base.
+When a new feature/bug/enhancement is developed, a new branch should be created from the
+main branch. After all necessary changes are commited, the branch can be suggested for a merge
+via a GitHub pull request.
 
 ## Pull request labels
 
