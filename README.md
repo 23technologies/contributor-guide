@@ -92,7 +92,12 @@ Please read the [best practices](https://wiki.openstack.org/wiki/GitCommitMessag
 We use the GitHub flow to track and discuss changes in issues, then propose and
 review changes in pull requests. See the
 [GitHub documentation](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests)
-for more details.
+for more details. The main-branch is considered to be a stable and working base.
+When a new feature/bug/enhancement is developed, a new branch should be created from the
+main branch. After all necessary changes are commited, the branch can be suggested for a merge
+via a GitHub pull request. A pull request can be merged in the end via the "squash and merge"
+function. Please clean up the commit-messages and provide a brief summary what the overall change does
+to the repository. Please also remember that all commits should be signed-off (so this applies to a merge-commit as well).
 
 ## Pull request labels
 
